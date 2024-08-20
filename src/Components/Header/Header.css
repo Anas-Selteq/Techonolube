@@ -6,7 +6,45 @@
     border: 1px solid black;
 }
 
-.font_for_p
-{
+.font_for_p {
     font-size: 16px;
+}
+
+.toggler_page {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 220;
+    top: 0;
+    left: 0;
+}
+
+.text_header {
+    font-size: 26px;
+    color: #a04d4f;
+    transition: 0.9s ease-in-out;
+    cursor: pointer;
+}
+
+.text_header:hover {
+    font-size: 26px;
+    color: black;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .text_header {
+        font-size: 15px;
+        color: #a04d4f;
+        transition: 0.9s ease-in-out;
+        cursor: pointer;
+    }
+
+    .text_header:hover {
+        font-size: 15px;
+        color: black;
+        cursor: pointer;
+    }
 }
