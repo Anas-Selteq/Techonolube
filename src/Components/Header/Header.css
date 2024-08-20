@@ -1,4 +1,12 @@
 .background_cc {
-    background-color: #800E13;
+    background-color: #a04d4f;
     color: white;
+    margin-top: 3%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.font_for_p
+{
+    font-size: 16px;
 }
