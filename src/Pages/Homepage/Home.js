@@ -178,10 +178,12 @@ function Home() {
         </div>
 
       </div>
+     
       <div className='col-md-12 py-2 text-center background_footer'>
         Copyright 2024
       </div>
     </div >
+
   )
 }
 
