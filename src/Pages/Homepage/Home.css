@@ -35,3 +35,15 @@
     background-color: #81061E;
     color: white;
 }
+
+.bprder_image
+{
+    border-radius: 10px;
+    border: 2px solid grey;
+    overflow: hidden;
+}
+
+.width_page
+{
+    width: 80%;
+}
