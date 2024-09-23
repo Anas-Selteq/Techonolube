@@ -13,6 +13,11 @@ import Nonind from './Pages/Non-incendive/Non-incendive';
 import Oilol from './Pages/Oilol500/Oilol500';
 import SP1 from './Pages/Spring/Spring';
 import Contact from './Pages/Contact/Contact';
+import Spring1info from './Pages/Spring1info/Spring1info';
+import Mannual from './Pages/Mannual/Mannual';
+import Mexdetail from './Pages/Mexdetails/Mexdetails';
+import Tcel from './Pages/Tcel/Tcel';
+import M1m2det from './Pages/M1m2det/M1m2det';
 
 
 function App() {
@@ -32,6 +37,11 @@ function App() {
           <Route path="/oil-ol500" element={<Oilol />} />
           <Route path="/spring-1" element={<SP1 />} />
           <Route path="/contact-us" element={<Contact />} />
+          <Route path="/spring-1-info" element={<Spring1info />} />
+          <Route path="/Mannual" element={<Mannual />} />
+          <Route path="/Mexdetail" element={<Mexdetail />} />
+          <Route path="/Tcel" element={<Tcel />} />
+          <Route path="/M1m2det" element={<M1m2det />} />
         </Routes>
       </Router>
     </div>

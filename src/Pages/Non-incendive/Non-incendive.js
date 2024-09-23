@@ -8,12 +8,8 @@ function Nonind() {
             <Header />
             <div className='col-md-12 padding_left_right mt-4 mb-5  pb-5 '>
                 <div className='row'>
-                    <div className='col-md-2'>
-                        <div className='col-md-12'>
-                            <img className='img-fluid width_page' src='/images/me1.jpg' />
-                        </div>
-                    </div>
-                    <div className='col-md-10 m-auto'>
+
+                    <div className='col-md-12 m-auto'>
                         <p data-aos="fade-right" data-aos-duration="1500" className='font_for_p '>
                             <b>TL-MEX  Electro Mechanical, Refillable Unit for Hazardous Locations </b>
                         </p>
@@ -34,6 +30,7 @@ function Nonind() {
                     </div>
                 </div>
                 <div className='row mt-4'>
+                    <div className='col-md-2'></div>
                     <div className='col-md-3'>
                         <div className='col-md-12'>
                             <img className='img-fluid width_page' src='/images/me2.jpg' />
@@ -44,6 +41,12 @@ function Nonind() {
                             <img className='img-fluid width_page' src='/images/me3.jpg' />
                         </div>
                     </div>
+                    <div className='col-md-2'>
+                        <div className='col-md-12'>
+                            <img className='img-fluid width_page' src='/images/me1.jpg' />
+                        </div>
+                    </div>
+                    <div className='col-md-2'></div>
                 </div>
 
 

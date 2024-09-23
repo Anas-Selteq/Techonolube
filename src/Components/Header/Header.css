@@ -1,5 +1,5 @@
 .background_cc {
-    background-color: #a04d4f;
+    background-color: #686D76;
     color: white;
     margin-top: 3%;
     border-radius: 20px;
@@ -8,6 +8,15 @@
 
 .font_for_p {
     font-size: 16px;
+}
+
+.cursor_pointer_for_images {
+    cursor: pointer;
+}
+
+.img_fixing {
+    height: 60px;
+    width: 130px;
 }
 
 .toggler_page {
@@ -34,10 +43,33 @@
     cursor: pointer;
 }
 
+.active_text {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 26px;
+    color: #373A40;
+    transition: 0.9s ease-in-out;
+    cursor: pointer;
+}
+
+.un_active_text {
+    font-weight: 400;
+    color: #686D76;
+    text-decoration: none;
+    font-size: 21px;
+    transition: 0.9s ease-in-out;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
+    .img_fixing {
+        height: 40px;
+        width: 74px;
+    }
+
     .text_header {
         font-size: 15px;
-        color: #a04d4f;
+        color: #686D76;
         transition: 0.9s ease-in-out;
         cursor: pointer;
     }

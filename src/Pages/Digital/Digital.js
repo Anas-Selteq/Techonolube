@@ -13,7 +13,7 @@ function Digital() {
                 <p data-aos="fade-right" data-aos-duration="1500" className='font_for_p mb-5'>
                     The single point digital display TL-D1 125cc and TL-D2 250cc  can be mounted directly on to the bearing, or on a bracket up to 3 ft. away, using an extension tube and fittings.  This  cuts down on time spent by personnel in servicing the bearing under possibly hazardous conditions.  These units can be located outdoors.  Weather-proof within the temperature range of -20C to +50C.
                 </p>
-                <div className='col-md-12'>
+                <div className='col-md-12 text-center '>
                     <img className='img-fluid' src='/images/10.jpg' />
                 </div>
             </div>
